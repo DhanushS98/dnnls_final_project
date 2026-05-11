@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Visual Storytelling with Cross-Modal Attention + Bidirectional Temporal Modelling
 
 ## Quick Links
@@ -24,6 +23,7 @@ Three key architectural enhancements were implemented:
 | 4 | Explainability | None            | Attention + Grad-CAM + Saliency | Provides interpretability of model decisions                   |
 
 ---
+
 
 ## Key Results
 
@@ -52,6 +52,7 @@ The system integrates visual and textual features through multiple stages:
    * Next caption
 
 ---
+
 
 ## Training Behaviour
 
@@ -168,7 +169,3 @@ This project demonstrates that integrating cross-modal attention with temporal m
 ## Reference
 
 Oliveira & Matos (2025) – StoryReasoning Dataset 
-=======
-# dnnls_final_project
-
->>>>>>> e3b1f6655129be0cc192227f8b121a5481b5879d
