@@ -179,3 +179,8 @@ This project demonstrates that integrating cross-modal attention with temporal m
 ## Reference
 
 Oliveira & Matos (2025) – StoryReasoning Dataset 
+
+## AI Usage Declaration
+In accordance with academic integrity guidelines, I declare the use of AI tools (Gemini) during the development of this project. 
+* **What AI was used for:** Formatting and structuring this README file, generating boilerplate visualization code for matplotlib graphs, and proofreading the final written report for grammatical flow.
+* **What AI was NOT used for:** All core architectural decisions, model training logic, experimental analysis, and methodology are entirely my own original work.
