@@ -54,8 +54,9 @@ The system integrates visual and textual features through multiple stages:
 
 ---
 
+## Experiment 1 : Training Behaviour and Evaluation
 
-## Training Behaviour
+### Training Behaviour
 
 * Training loss decreases steadily
 * Validation loss stabilises after early epochs
@@ -94,9 +95,11 @@ However, generated captions are often:
 * Repetitive
 * Lacking semantic precision
 
+![Training Loss Curve](results/loss_curve.png)
+
 ---
 
-## Explainability
+### Experiment 2 : Explainability
 
 Three interpretability methods were applied:
 
@@ -117,9 +120,13 @@ Three interpretability methods were applied:
 
 These techniques confirm that the model learns meaningful multimodal representations.
 
+![Attention Rollout](results/explainability/attention_rollout.png)
+![Qualitative Predictions](results/qualitative_prediction.png)
+![Grad CAM](results/explainability/grad_cam_frame1.png)
+
 ---
 
-## Ablation Study
+### Experiment 3 : Ablation Study
 
 | Variant     | BLEU-4 | MSE  |
 | ----------- | ------ | ---- |
@@ -129,6 +136,8 @@ These techniques confirm that the model learns meaningful multimodal representat
 | Full Model  | 0.00   | 0.83 |
 
 Each component contributes to improved performance, particularly in reducing image reconstruction error.
+
+![Ablation Study Plot](results/ablation_plot.png)
 
 ---
 
